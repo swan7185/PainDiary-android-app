@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_reports"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart_painLocation"
+        android:layout_width="234dp"
+        android:layout_height="214dp"/>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart_stepsTaken"
+        android:layout_width="234dp"
+        android:layout_height="194dp"/>
+
+    <TextView
+        android:id="@+id/startDate_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="currentDate"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/startDate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set starting date" />
+
+    <TextView
+        android:id="@+id/endDate_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="currentDate"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/endDate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set ending date" />
+
+    <Spinner
+        android:id="@+id/weatherVariableSpinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/lineChart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="draw line charts" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+    </com.github.mikephil.charting.charts.LineChart>
+
+</LinearLayout>

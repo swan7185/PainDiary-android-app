@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">PainDiaryApp</string>
+    <string name="email_hint">email account</string>
+    <string name="password_hint">password</string>
+    <string name="title_activity_home">Your personal pain diary</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="pain_Level_List">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="pain_Location_List">
+        <item>back</item>
+        <item>neck</item>
+        <item>head</item>
+        <item>knees</item>
+        <item>hips</item>
+        <item>abdomen</item>
+        <item>elbows</item>
+        <item>shoulders</item>
+        <item>shins</item>
+        <item>jaw</item>
+        <item>facial</item>
+    </string-array>
+
+    <string-array name="mood_List">
+        <item>very low</item>
+        <item>low</item>
+        <item>average</item>
+        <item>good</item>
+        <item>very good</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_data_time_picker">DataTimePicker</string>
+    <string name="title_activity_button">Button</string>
+
+    <string-array name="weather_variable_List">
+        <item>temperature</item>
+        <item>humidity</item>
+        <item>pressure</item>
+    </string-array>
+
+
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2hlbmduYW53YW5nIiwiYSI6ImNrb29oamFmbzA0Ynoyb2toczM2NHhxOTAifQ.7woYFjeHZShad4oXIGxIIg</string>
+     <string name="title_activity_maps">Map</string>
+
+</resources>
